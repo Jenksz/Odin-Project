@@ -1,0 +1,130 @@
+body {
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+	font-family: Helvetica, sans-serif;
+}
+
+#header {
+	background-color: #2d2d2d;
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+#header a {
+	font-weight: bold;
+	color: gray;
+	text-decoration: none;
+	position: relative;
+	top: 5px;
+}
+
+#header a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#signin_button {
+	height: 27px;
+	margin: 47px 32px 0px 0px;
+	text-align: right;
+}
+
+#signin_button button {
+	background-color: #D14836;
+	border: 1px solid #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-radius: 4px;
+	padding: 7px 16px 8px 16px;
+}
+
+#signin_button button:hover {
+	cursor: pointer;
+}
+
+#google {
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 100%;
+	top: 220px;
+}
+
+img {
+	height: 120px;
+	padding-bottom: 20px;
+}
+
+img:hover {
+	cursor: pointer;
+}
+
+input {
+	width: 680px;
+	height: 30px;
+}
+
+input:focus {
+	border: 2px solid lightblue;
+}
+
+.button {
+	background: #F2F2F2;
+	border-radius: 3px;
+	text-align: center;
+	padding: 8px;
+	height: 35px;
+	margin-top: 20px;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+#about {
+	color: black;
+}
+
+p {
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	bottom: 0;
+	left: 0;
+	background: #F2F2F2;
+	border-top: 1px solid #BABABA;
+}
+
+li {
+	font-size: 13px;
+	padding: 5px 8px 5px 8px;
+	display: inline;
+	list-style-type: none;
+}
+
+footer li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#list2 {
+	position: fixed;
+	right: 0;
+	display: inline;
+}
